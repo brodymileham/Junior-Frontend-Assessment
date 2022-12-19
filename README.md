@@ -8,7 +8,7 @@ You can look up documentation to help you with this assessment, however please r
 
 This project uses HTML, vanilla JavaScript, and SCSS. We recommend creating a fork of this repo and cloning your fork locally. 
 
-Once you have a local version we recommend using VScode with the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) and [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass) extensions. Open the .scss file and run the live sass compiler from the bottom right toolbar, then open the html file and run the live server "Go live" from the bottom right toolbar. This will enable live compilation and hot reloading for your development environment.
+Once you have a local version we recommend using VScode with the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) and [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass) extensions. Open the `style.scss` file and run the live sass compiler from the bottom right toolbar, then open the `index.html` file and run the live server "Go live" from the bottom right toolbar. This will enable live compilation and hot reloading for your development environment.
 
 Part of our assessment criteria is how you utilize git, so make sure you are making regular sensible commits. Push your finished work to your forked repo when you are done, and send us the link. Make sure the repo is public so we are able to make our assessment.
 
