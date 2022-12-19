@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Fido",
+    "species": "dog",
+    "age": 3,
+    "color": "brown",
+    "breed": "labrador",
+    "favoriteFood": "steak",
+    "favoriteToy": "bone"
+  },
+  {
+    "name": "Spot",
+    "species": "dog",
+    "age": 2,
+    "color": "black",
+    "breed": "labrador",
+    "favoriteFood": "steak",
+    "favoriteToy": "ball"
+  },
+  {
+    "name": "Rover",
+    "species": "dog",
+    "age": 5,
+    "color": "white",
+    "breed": "labrador",
+    "favoriteFood": "steak",
+    "favoriteToy": "rope",
+    "featured": true
+  },
+  {
+    "name": "Fluffy",
+    "species": "cat",
+    "age": 1,
+    "color": "white",
+    "breed": "persian",
+    "favoriteFood": "fish",
+    "favoriteToy": "ball"
+  },
+  {
+    "name": "Patches",
+    "species": "cat",
+    "age": 2,
+    "color": "black",
+    "breed": "siamese",
+    "favoriteFood": "fish",
+    "favoriteToy": "string",
+    "featured": true
+  },
+  {
+    "name": "Tiger",
+    "species": "cat",
+    "age": 3,
+    "color": "orange",
+    "breed": "siamese",
+    "favoriteFood": "fish",
+    "favoriteToy": "yarn"
+  },
+  {
+    "name": "Smokey",
+    "species": "cat",
+    "age": 4,
+    "color": "gray",
+    "breed": "persian",
+    "favoriteFood": "fish",
+    "favoriteToy": "feather"
+  }
+]
