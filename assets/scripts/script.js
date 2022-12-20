@@ -8,11 +8,11 @@ function openModal() {
   modal.classList.toggle("hidden");
 }
 
-function sortByName(a, b) {
-  if (a.name < b.name) {
+function sortPets(a, b) {
+  if (a.featured === true || a.name < b.name) {
     return -1;
   }
-  if (a.name > b.name) {
+  if (b.featured === false || a.name > b.name) {
     return 1;
   }
   return 0;
@@ -113,7 +113,7 @@ class Pet {
 const petData = fetch("assets/data/pets.json")
   .then((response) => response.json())
   .then((data) => {
-    data.sort(sortByName);
+    data.sort(sortPets);
     data.forEach((pet) => {
       pushPet(
         new Pet(
