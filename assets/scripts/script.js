@@ -8,7 +8,18 @@ function openModal() {
   modal.classList.toggle("hidden");
 }
 
+function sortByName(a, b) {
+  if  (a.name < b.name) {
+    return -1;
+  }
+  if (a.name > b.name) {
+    return 1;
+  }
+  return 0;
+}
+
 window.pets = [];
+console.log(pets);
 const pushPet = pet => {
   window.pets.push(pet);
   Pet.renderAll();
@@ -54,6 +65,7 @@ class Pet {
 }
 
 const petData = fetch('assets/data/pets.json').then(response => response.json()).then(data => {
+  data.sort(sortByName);
   data.forEach(pet => {
     pushPet(new Pet(
       pet.name,
