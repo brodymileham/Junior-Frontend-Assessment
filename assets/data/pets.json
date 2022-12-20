@@ -63,5 +63,15 @@
     "breed": "persian",
     "favoriteFood": "fish",
     "favoriteToy": "feather"
+  },
+  {
+    "name": "Shadow",
+    "species": "Dog",
+    "age": 7,
+    "color": "gray",
+    "breed": "border collie",
+    "favoriteFood": "meat",
+    "favoriteToy": "ball",
+    "featured": true
   }
 ]
