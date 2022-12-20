@@ -171,6 +171,14 @@ main {
   border: 3px solid #EFEFEF;
   padding: 20px;
 }
+.pets__card__featured {
+  border: 3px solid gold;
+  padding: 20px;
+}
+.pets__card__goodboy {
+  border: 3px ridge greenyellow;
+  padding: 20px;
+}
 .pets__card__title {
   text-align: center;
   font-size: 18px;

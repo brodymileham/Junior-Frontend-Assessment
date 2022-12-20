@@ -118,6 +118,16 @@ main {
     border: 3px solid #EFEFEF;
     padding: 20px;
 
+    &__featured {
+      border: 3px solid gold;
+      padding: 20px;
+    }
+
+    &__goodboy {
+      border: 3px ridge greenyellow;
+      padding: 20px;
+    }
+
     &__title {
       text-align: center;
       font-size: 18px;
