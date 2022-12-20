@@ -232,7 +232,7 @@ main {
   text-align: center;
   background-color: #7aaCC3;
   border-radius: 20px;
-  border: solid 5px #898989;
+  border: solid 5px rgba(78, 78, 78, 0.4901960784);
   width: 400px;
   height: 150px;
   max-width: 400px;
