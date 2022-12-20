@@ -107,6 +107,9 @@ input {
 }
 .main-header__nav-link:hover {
   color: #898989;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.65);
+  transition-duration: 300ms;
 }
 
 main {
