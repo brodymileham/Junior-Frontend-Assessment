@@ -1,4 +1,4 @@
-const modal = document.getElementById("info__modal");
+const modal = document.getElementById("modal");
 
 function closeModal() {
   modal.classList.toggle("hidden");

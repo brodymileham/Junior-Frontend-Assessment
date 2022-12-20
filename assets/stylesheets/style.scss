@@ -1,5 +1,5 @@
-@import '_reset';
-@import '_general';
+@import "_reset";
+@import "_general";
 
 // Header
 .main-header {
@@ -17,7 +17,7 @@
       justify-content: center;
     }
   }
-  
+
   &__logo {
     display: inline-block;
     width: 60px;
@@ -69,7 +69,8 @@ main {
   }
 }
 
-.intro, .pets {
+.intro,
+.pets {
   background-color: white;
   border-radius: 4px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
@@ -115,7 +116,7 @@ main {
   }
 
   &__card {
-    border: 3px solid #EFEFEF;
+    border: 3px solid #efefef;
     padding: 20px;
 
     &__featured {
@@ -139,7 +140,7 @@ main {
       text-align: center;
       font-size: 14px;
       padding-bottom: 12px;
-      border-bottom: 1px solid #EFEFEF;
+      border-bottom: 1px solid #efefef;
       margin-bottom: 12px;
     }
 
@@ -179,28 +180,28 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
 
-.modal  p {
-  margin-top: 30px;
-  font-size: 2rem;
-  color: #fff;
-}
+  &__text {
+    margin-top: 30px;
+    font-size: 2rem;
+    color: #fff;
+  }
 
-.modal__button {
-  display: block;
-  width: 100%;
-  text-decoration: none;
-  color: #fff;
-  background-color: $brand-color;
-  padding: 10px 0;
-  font-size: 14px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  border: none;
-  margin-top: 30px;
-  cursor: pointer;
+  &__button {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    background-color: $brand-color;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+  }
 }
 
 // Footer
