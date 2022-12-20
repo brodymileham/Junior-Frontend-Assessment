@@ -1,11 +1,14 @@
 const modal = document.getElementById("modal");
+const overlay = document.getElementById("overlay");
 
 function closeModal() {
   modal.classList.toggle("hidden");
+  overlay.classList.toggle("hidden");
 }
 
 function openModal() {
   modal.classList.toggle("hidden");
+  overlay.classList.toggle("hidden");
 }
 
 function sortPets(a, b) {
