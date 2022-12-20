@@ -1,3 +1,13 @@
+const modal = document.getElementById("info__modal");
+
+function closeModal() {
+  modal.classList.toggle("hidden");
+}
+
+function openModal() {
+  modal.classList.toggle("hidden");
+}
+
 window.pets = [];
 const pushPet = pet => {
   window.pets.push(pet);
@@ -27,7 +37,7 @@ class Pet {
         <p class="pets__card__info">Breed: ${this.breed}</p>
         <p class="pets__card__info">Favorite Food: ${this.favoriteFood}</p>
         <p class="pets__card__info">Favorite Toy: ${this.favoriteToy}</p>
-        <button type="button" class="pets__card__button">More Info</button>
+        <button type="button" onclick="openModal()" class="pets__card__button">More Info</button>
       </div>
     `;
   }
